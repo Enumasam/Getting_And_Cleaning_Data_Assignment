@@ -52,6 +52,7 @@ The followign steps correspond to the criteria described above.
 
 
 Identifiers
+
 SubjectID - The identification number of the test subject; ranges from 1-24.
 ActivityID - The type of activity performed (see Activity Labels section below).
 
