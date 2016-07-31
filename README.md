@@ -17,5 +17,5 @@ The criteria for reviewing the assignment are:
 5. The work submitted for this project is the work of the student who submitted it.
 
 
-Data from Samsung Galaxy 5 smartphone accelerometers will be "tidied" for this project. The data (obtained from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) provided in several .txt files. Tidying this data required loading the data from each file into R, combining the data sets and applying the correct labels, and using the ddply() function to generate a tidy data frame with the average value of the data, according to both the SubjectID and ActivityID.
+Data from Samsung Galaxy 5 smartphone accelerometers will be "tidied" for this project. The data (obtained from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) provided in several .txt files. Tidying this data required loading the data from each file into R, combining the data sets and applying the correct labels, and using the ddply() function to generate a tidy data frame with the average value of the data, according to both the SubjectID and ActivityID. The README.md and CODEBOOK.md files also have been provided in this repository, per the instructions.
 
