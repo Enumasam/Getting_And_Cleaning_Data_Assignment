@@ -75,7 +75,7 @@ LAYING - Indicates the subject was laying down.
 
 Measurement Labels
 
-In case there are any questions about subsetting data2 into two data frames (1:2 and 3:563). I used the ncol() function to see there were 563 columns and the View() function showed the first two (SubjectID and ActivityID) were the only ones correctly labeled. It turns out it's just as easy to copy contents of features.txt and paste them into Word to get the full count. If ncol() hadn't worked (or I had made an error), this would have been useful.
+Note: The explaination for these measurements are provided in the file features.txt
 
 1 tBodyAcc-mean()-X
 
