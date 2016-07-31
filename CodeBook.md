@@ -80,7 +80,7 @@ LAYING - Indicates the subject was laying down.
 
 Measurement Labels
 
-Note: The explaination for these measurements are provided in the file features.info.txt, which is included in the repository.
+Note: The explaination for these measurements are provided in the file features_info.txt, which is included in the repository.
 
 1 tBodyAcc-mean()-X
 
