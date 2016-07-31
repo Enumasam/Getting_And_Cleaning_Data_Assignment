@@ -65,10 +65,15 @@ ActivityID - The type of activity performed (see Activity Labels section below).
 Activity Labels
 
 WALKING - Indicates the subject was walking.
+
 WALKING_UPSTAIRS - Indicates the subject was walking up a staircase.
+
 WALKING_DOWNSTAIRS - Indicates the subject was walking down a staircase.
+
 SITTING -  Indicates the subject was sitting.
+
 STANDING - Indicates the subject was standing.
+
 LAYING - Indicates the subject was laying down.
 
 
