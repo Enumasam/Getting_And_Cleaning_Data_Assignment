@@ -7,7 +7,6 @@ The purpose of the project is to demonstrate the ability to collect, work with, 
 3. A code book that describes the variables, the data, and any transformations performed to clean up the data called CodeBook.md.
 4. A README.md file in the repo.
 
-Data from Samsung Galaxy 5 smartphone accelerometers will be "tidied" for this project.
 
 The criteria for reviewing the assignment are:
 
@@ -17,4 +16,6 @@ The criteria for reviewing the assignment are:
 4. The README that explains the analysis files is clear and understandable.
 5. The work submitted for this project is the work of the student who submitted it.
 
+
+Data from Samsung Galaxy 5 smartphone accelerometers will be "tidied" for this project. The data (obtained from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) provided in several .txt files. Tidying this data required loading the data from each file into R, combining the data sets and applying the correct labels, and using the ddply() function to generate a tidy data frame with the average value of the data, according to both the SubjectID and ActivityID.
 
