@@ -1,5 +1,6 @@
 Code Book - Getting and Cleaning Data Project
 
+
 Introduction
 
 This code book summarizes the data fields in tidy.txt, part of the assignment for the third course in the Data Science Specialization, Getting and Cleaning Data.
@@ -11,6 +12,7 @@ The purpose of the project is to demonstrate the ability to collect, work with, 
 3 - Uses descriptive activity names to name the activities in the data set.
 4 - Appropriately label the data set with descriptive variable names.
 5 - From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
 
 
 Variables
@@ -36,6 +38,7 @@ mean_sd - contains the row numbers from the features variable for mean and stand
 msd_data - all of the mean and standard deviation data from the data variable.
 
 
+
 Transformations to Tidy the Data
 
 The followign steps correspond to the criteria described above.
@@ -51,19 +54,23 @@ The followign steps correspond to the criteria described above.
 5 - Used the ddply() function to apply the mean() function across the tidied data frame by the SubjectID and ActivityID variables, and combine the data into a single data frame. (Much easier than the for loop I started writing. Lesson: When coding a function seems overly complicated, there's a good chance a simple and shorter function already exists that does the same thing.)
 
 
+
 Identifiers
 
 SubjectID - The identification number of the test subject; ranges from 1-24.
 ActivityID - The type of activity performed (see Activity Labels section below).
 
 
+
 Activity Labels
+
 WALKING - Indicates the subject was walking.
 WALKING_UPSTAIRS - Indicates the subject was walking up a staircase.
 WALKING_DOWNSTAIRS - Indicates the subject was walking down a staircase.
 SITTING -  Indicates the subject was sitting.
 STANDING - Indicates the subject was standing.
 LAYING - Indicates the subject was laying down.
+
 
 
 Measurement Labels
